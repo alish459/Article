@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthorDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaseDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +59,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AuthorDefinition.resx">
+      <DependentUpon>AuthorDefinition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaseDefinition.resx">
+      <DependentUpon>CaseDefinition.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -64,6 +76,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -83,6 +96,60 @@
       <Project>{6fdbfca8-648a-47ec-84da-cb1f8bc91d2d}</Project>
       <Name>PersianUI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1370791030_credit-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371475930_filenew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371475973_document_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476007_Close_Box_Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476049_fork3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476070_self1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476120_fingerprint_reader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476143_deliverables.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476193_printers-&amp;-Faxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476276_Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476342_Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476368_Synchronize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476394_refresh red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476468_preferences-contact-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476499_todo-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\servicesCosts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

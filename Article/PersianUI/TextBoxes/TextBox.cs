@@ -70,9 +70,11 @@ namespace PersianUI.TextBoxes
             this.Width = 200;
             this.Height = 34;
             this.TextAlign = HorizontalAlignment.Right;
-            this.Font = new Font("IRANSans", 12);
+            this.Font = new Font("IRANSans", 10);
             this.BackColor = LeaveBaCkColor;
             this.ForeColor = LeaveForColor;
+            this.RightToLeft = RightToLeft.No;
+            this.TextAlign = HorizontalAlignment.Right;
         }
         void TextBox_KeyPress(object sender, KeyPressEventArgs e)
         {

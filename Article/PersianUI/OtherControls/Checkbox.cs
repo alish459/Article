@@ -22,7 +22,7 @@ namespace PersianUI.OtherControls
             previousForeColor = this.ForeColor;
             this.KeyDown += Checkbox_KeyDown;
             this.KeyPress += Checkbox_KeyPress;
-            this.Font = new Font("IRANSans", 12);
+            this.Font = new Font("IRANSans", 10);
         }
         private void Checkbox_KeyPress(object sender, KeyPressEventArgs e)
         {

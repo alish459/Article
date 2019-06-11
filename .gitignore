@@ -12,3 +12,8 @@
 *.cache
 *.cache
 Article/.vs/Article/v15/.suo
+Article/.vs/Article/v15/.suo
+*.dll
+*.cache
+*.dll
+*.dll

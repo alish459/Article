@@ -16,5 +16,22 @@ namespace Article
         {
             InitializeComponent();
         }
+
+        private void ToolStripAuthor_Click(object sender, EventArgs e)
+        {
+            AuthorDefinition MyForm = new AuthorDefinition();
+            MyForm.ShowDialog();
+        }
+
+        private void ToolStripCase_Click(object sender, EventArgs e)
+        {
+            CaseDefinition MyForm = new CaseDefinition();
+            MyForm.Show();
+        }
+
+        private void toolStripCase_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
