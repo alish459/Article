@@ -9,3 +9,5 @@
 *.pdb
 *.resources
 *.config
+*.cache
+*.cache
