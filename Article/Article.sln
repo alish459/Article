@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Article", "Article\Article.csproj", "{664C7077-7F98-491E-8435-046DD5119C4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianUI", "PersianUI\PersianUI.csproj", "{6FDBFCA8-648A-47EC-84DA-CB1F8BC91D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{664C7077-7F98-491E-8435-046DD5119C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664C7077-7F98-491E-8435-046DD5119C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664C7077-7F98-491E-8435-046DD5119C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDBFCA8-648A-47EC-84DA-CB1F8BC91D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDBFCA8-648A-47EC-84DA-CB1F8BC91D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDBFCA8-648A-47EC-84DA-CB1F8BC91D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDBFCA8-648A-47EC-84DA-CB1F8BC91D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -75,5 +75,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PersianUI\PersianUI.csproj">
+      <Project>{6fdbfca8-648a-47ec-84da-cb1f8bc91d2d}</Project>
+      <Name>PersianUI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
